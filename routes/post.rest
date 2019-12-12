@@ -1,0 +1,33 @@
+POST https://wds-build-a-rest-api-node-expr.herokuapp.com/recipes
+Content-type: application/json
+
+{
+	  "name": "Plain Matt",
+    "servings": 3,
+    "cookTime": "1:45",
+    "instructions": "1. Put salt on chicken\n2. Put chicken in oven\n3. Eat chicken",
+    "ingredients": [
+      {
+       
+        "name": "Chicken",
+        "amount": "2 Pounds"
+      },
+      {
+        
+        "name": "Salt",
+        "amount": "1 Tbs"
+      }
+    ],
+    "authors": [
+      {
+        
+        "name": "nun",
+        "email": "nunny@gmail.com"
+      },
+      { 
+        
+        "name": "matt",
+        "email":"mwong@gmail.com"      
+      }
+    ]
+}
