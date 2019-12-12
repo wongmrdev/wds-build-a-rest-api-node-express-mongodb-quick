@@ -1,0 +1,40 @@
+GET http://localhost:4000/recipes
+
+#GET http://localhost:4000/recipes/5df15209842765435663f40f
+#Content-Type: application/json
+
+#POST http://localhost:4000/recipes/ 
+#Content-Type: application/json
+
+#{
+	
+    "name": "Plain Chicken",
+    "servings": 3,
+    "cookTime": "1:45",
+    "instructions": "1. Put salt on chicken\n2. Put chicken in oven\n3. Eat chicken",
+    "ingredients": [
+      {
+       
+        "name": "Chicken",
+        "amount": "2 Pounds"
+      },
+      {
+        
+        "name": "Salt",
+        "amount": "1 Tbs"
+      }
+    ],
+    "authors": [
+      {
+        
+        "name": "nun",
+        "email": "nunny@gmail.com"
+      },
+      { 
+        
+        "name": "matt",
+        "email":"mwong@gmail.com"      
+      }
+    ]
+}
+

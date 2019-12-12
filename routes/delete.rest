@@ -1,0 +1,1 @@
+DELETE http://localhost:4000/recipes/5df1ce73fc76c1da098f9cda

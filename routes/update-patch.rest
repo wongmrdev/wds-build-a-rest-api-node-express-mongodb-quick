@@ -1,0 +1,35 @@
+PATCH http://localhost:4000/recipes/5df1f8262ed5713c4e9ca51b
+Content-type: application/json
+
+{
+    
+    "name": "Gmail Nunny",
+    "servings": 3,
+    "cookTime": "1:45",
+    "instructions": "1. Put salt on chicken\n2. Put chicken in oven\n3. Eat chicken",
+    "ingredients": [
+      {
+        "id": "1",
+        "name": "Chicken",
+        "amount": "2 Pounds"
+      },
+      {
+        "id": "2",
+        "name": "Salt",
+        "amount": "1 Tbs"
+      }
+    ],
+    "authors": [
+      {
+        "id": "1",
+        "name": "nun",
+        "email": "nunny@gmail.com"
+      },
+      { 
+        "id": "2",
+        "name": "matt",
+        "email":"mwong@gmail.com"      
+      }
+    ]
+    
+}
